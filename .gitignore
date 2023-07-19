@@ -1,0 +1,15 @@
+node_modules/
+logs/
+v8-compile-cache-0/
+.idea
+.DS_Store
+point-job.iml
+npm-debug.log
+test.js
+config/dotenv/*.env
+!config/dotenv/sample.env
+package-lock.json
+test/uploads/*.xlsx
+test/downloads/*.xlsx
+upload/*
+config/config.js

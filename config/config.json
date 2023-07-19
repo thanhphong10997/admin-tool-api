@@ -1,0 +1,191 @@
+{
+    "local": {
+        "node_port": 6131,
+        "gw_url": "http://localhost:6131",
+        "secretKey": "ce656850400574e9f9cffb285ee8abc0",
+        "path_upload": "./upload",
+        "cache": {
+            "redis": {
+                "url": "",
+                "prefix": "",
+                "database": 0
+            }
+        },
+        "mysql": {
+            "host": "",
+            "database": "",
+            "user": "",
+            "password": "",
+            "connectionLimit": 10,
+            "port": 3306,
+            "dateStrings": true,
+            "multipleStatements": true
+        },
+        "authen": {
+            "TEST": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-APP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-BE-APP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "RULE": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-ERP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-LOYALTY-REPORT": {
+                "publicKey": "",
+                "privateKey": ""
+            }
+        },
+        "notification": {
+            "url": "",
+            "product": "",
+            "token": "",
+            "telegram": {
+                "token": "",
+                "chatId": ""
+            }
+        },
+        "erp": {
+            "url": ""
+        },
+        "graphite": {
+            "url": "plaintext://data.ngocdunggroup.com:2003",
+            "prefix": "ngocdung.local-shop-service"
+        }
+    },
+    "development": {
+        "node_port": 6131,
+        "gw_url": "https://gw-eloyalty-dev.ngocdunggroup.com",
+        "secretKey": "ce656850400574e9f9cffb285ee8abc0",
+        "cache": {
+            "redis": {
+                "url": "",
+                "prefix": ""
+            }
+        },
+        "mysql": {
+            "host": "",
+            "database": "",
+            "user": "",
+            "password": "",
+            "connectionLimit": 10,
+            "dateStrings": true,
+            "multipleStatements": true
+        },
+        "authen": {
+            "TEST": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-APP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-BE-APP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "RULE": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-ERP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-LOYALTY-REPORT": {
+                "publicKey": "",
+                "privateKey": ""
+            }
+        },
+        "notification": {
+            "url": "",
+            "product": "",
+            "token": "",
+            "telegram": {
+                "token": "",
+                "chatId": ""
+            }
+        },
+        "erp": {
+            "url": ""
+        },
+        "graphite": {
+            "url": "plaintext://172.16.161.253:2023",
+            "prefix": "ngocdung.dev-shop-service"
+        }
+    },
+    "production": {
+        "node_port": 6901,
+        "gw_url": "https://gw-eloyalty.ngocdunggroup.com",
+        "secretKey": "ce656850400574e9f9cffb285ee8abc0",
+        "cache": {
+            "redis": {
+                "url": "",
+                "prefix": ""
+            }
+        },
+        "mysql": {
+            "host": "",
+            "database": "",
+            "user": "",
+            "password": "",
+            "connectionLimit": 10,
+            "dateStrings": true,
+            "multipleStatements": true
+        },
+        "authen": {
+            "TEST": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-APP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-BE-APP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "RULE": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-ERP": {
+                "publicKey": "",
+                "privateKey": ""
+            },
+            "NGOCDUNG-LOYALTY-REPORT": {
+                "publicKey": "",
+                "privateKey": ""
+            }
+        },
+        "notification": {
+            "url": "",
+            "product": "",
+            "token": "",
+            "telegram": {
+                "token": "",
+                "chatId": ""
+            }
+        },
+        "erp": {
+            "url": ""
+        },
+        "graphite": {
+            "url": "plaintext://172.16.161.253:2023",
+            "prefix": "ngocdung.prod-shop-service"
+        }
+    }
+}
