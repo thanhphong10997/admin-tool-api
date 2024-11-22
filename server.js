@@ -53,7 +53,7 @@ app.use(function (err, req, res, next) {
 
 utilsApi.createCronJob();
 
-var nodePort = global.gConfig.node_port;
+var nodePort = process.env.PORT || global.gConfig.node_port;
 var server = app.listen(nodePort, function () {
 	winston.info(
 		"Express server listening on port " +
